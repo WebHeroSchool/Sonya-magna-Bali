@@ -1,7 +1,7 @@
 body {
   font-family: "MuseoSansCyrl500";
   width: 100%;
-  background: url("images/iswanto-arif-448003-unsplash.jpg");
+  background: url("../images/iswanto-arif-448003-unsplash.jpg");
 }
 .header {
   display: flex;
@@ -15,3 +15,24 @@ body {
   width: 338.74px;
   height: 28.12px;
  }
+ .header__burger {
+   display: none;
+ }
+ .burger__item {
+   height: 3 px;
+   width: 30 px;
+   margin-top: 10px;
+   background-color: white;
+   border-radius: 1px;
+ }
+ @media (max-width:768px) {
+   .header__burger {
+     display: block;
+   }
+   .header__menu {
+     display: none;
+   }
+ }
+ .content {
+   display: flex;
+  }
