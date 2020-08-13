@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "MuseoSansCyrl500";
+    src: url("../fonts/MuseoSansCyrl500.eot");
+    src: url("../fonts/MuseoSansCyrl500.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MuseoSansCyrl500.woff") format("woff"),
+    url("../fonts/MuseoSansCyrl500.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
+  @font-face {
+    font-family: "PTSerifBold";
+    src: url("../fonts/PTSerifBold.eot");
+    src: url("../fonts/PTSerifBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/PTSerifBold.woff") format("woff"),
+    url("../fonts/PTSerifBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
