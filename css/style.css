@@ -8,19 +8,25 @@ body {
   align-items: center;
   justify-content: space-around;
 }
+.header__logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 129.38px;
+}
 .header__menu {
   display: flex;
   align-items: center;
   justify-content: space-around;
   width: 338.74px;
   height: 28.12px;
+  color: white;
  }
  .header__burger {
    display: none;
  }
  .burger__item {
-   height: 3 px;
-   width: 30 px;
+   height: 3px;
+   width: 30px;
    margin-top: 10px;
    background-color: white;
    border-radius: 1px;
@@ -36,3 +42,45 @@ body {
  .content {
    display: flex;
   }
+.information {
+
+}
+.information__title {
+  color: white;
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: bold;
+  margin-bottom:0;
+  margin-top:0;
+  font-size: 280px;
+  display: flex;
+  align-items: center;
+  opacity: 0.4;
+}
+.information__subtitle {
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: bold;
+  width: 466.65px;
+  height: 130.78px;
+  margin-top: -145px;
+  margin-bottom: 8.44px;
+  font-size: 98px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.information__text {
+  width: 550.75px;
+  height: 54.84px;
+  margin-bottom: 60.47px;
+  color: white;
+}
+.information__button{
+
+}
+.gallery {
+  display: flex;
+  align-items: center;
+  width: 351.78px;
+}
