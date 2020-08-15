@@ -2,24 +2,27 @@ body {
   font-family: "MuseoSansCyrl500";
   width: 100%;
   background: url("../images/iswanto-arif-448003-unsplash.jpg");
+  padding-left: 247.38px;
+  padding-top: 144.84px;
 }
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-bottom: 129.38px;
+  padding-right: 160.2px;
 }
 .header__logo {
-  display: flex;
-  align-items: center;
-  margin-bottom: 129.38px;
+  width: 146.18px;
+  height: 54.84px;
 }
-.header__menu {
+.menu {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-  width: 338.74px;
-  height: 28.12px;
   color: white;
+ }
+ .menu__link {
+   margin-right: 33.73px;
+   color: white;
  }
  .header__burger {
    display: none;
@@ -35,15 +38,15 @@ body {
    .header__burger {
      display: block;
    }
-   .header__menu {
+   .menu {
      display: none;
    }
  }
  .content {
    display: flex;
+   justify-content: space-between;
   }
 .information {
-
 }
 .information__title {
   color: white;
@@ -53,34 +56,36 @@ body {
   margin-bottom:0;
   margin-top:0;
   font-size: 280px;
-  display: flex;
-  align-items: center;
   opacity: 0.4;
 }
 .information__subtitle {
   font-family: PT Serif;
   font-style: normal;
   font-weight: bold;
-  width: 466.65px;
-  height: 130.78px;
   margin-top: -145px;
   margin-bottom: 8.44px;
   font-size: 98px;
-  display: flex;
-  align-items: center;
   color: white;
+  padding-left: 82.93px;
 }
 .information__text {
   width: 550.75px;
-  height: 54.84px;
   margin-bottom: 60.47px;
+  font-size: 22px;
+  line-height: 26px;
   color: white;
 }
 .information__button{
-
+  background: #D4BEA3;
+  border-radius: 48px;
+  color: white;
+  width: 293.76px;
+  height: 61.88px;
 }
 .gallery {
   display: flex;
   align-items: center;
-  width: 351.78px;
+}
+.gallery__foto {
+  margin-right: 33.73px;
 }
