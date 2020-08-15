@@ -2,8 +2,11 @@ body {
   font-family: "MuseoSansCyrl500";
   width: 100%;
   background: url("../images/iswanto-arif-448003-unsplash.jpg");
+  margin: 0;
+  box-sizing: border-box;
   padding-left: 247.38px;
   padding-top: 144.84px;
+  background-size: cover;
 }
 .header {
   display: flex;
