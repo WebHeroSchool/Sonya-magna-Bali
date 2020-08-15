@@ -23,6 +23,9 @@ body {
   display: flex;
   color: white;
  }
+ .menu :last-child {
+   margin-right: 0;
+ }
  .menu__link {
    margin-right: 33.73px;
    color: white;
@@ -80,6 +83,7 @@ body {
 }
 .information__button{
   background: #D4BEA3;
+  border: 0;
   border-radius: 48px;
   color: white;
   width: 293.76px;
@@ -88,6 +92,9 @@ body {
 .gallery {
   display: flex;
   align-items: center;
+}
+.gallery :last-child {
+  margin-right: 0;
 }
 .gallery__foto {
   margin-right: 33.73px;
