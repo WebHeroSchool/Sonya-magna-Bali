@@ -7,6 +7,8 @@ body {
   padding-left: 247.38px;
   padding-top: 144.84px;
   background-size: cover;
+  margin-bottom: 129.38px;
+  background-repeat: no-repeat;
 }
 .header {
   display: flex;
@@ -21,7 +23,6 @@ body {
 }
 .menu {
   display: flex;
-  color: white;
  }
  .menu :last-child {
    margin-right: 0;
@@ -29,6 +30,8 @@ body {
  .menu__link {
    margin-right: 33.73px;
    color: white;
+   font-size: 22px;
+   text-decoration: none;
  }
  .header__burger {
    display: none;
@@ -52,8 +55,6 @@ body {
    display: flex;
    justify-content: space-between;
   }
-.information {
-}
 .information__title {
   color: white;
   font-family: PT Serif;
@@ -88,6 +89,7 @@ body {
   color: white;
   width: 293.76px;
   height: 61.88px;
+  font-size: 22px;
 }
 .gallery {
   display: flex;
@@ -95,7 +97,15 @@ body {
 }
 .gallery :last-child {
   margin-right: 0;
+  width: 253.85px;
 }
 .gallery__foto {
+  width: 284.31px;
+  height: 379.69px;
   margin-right: 33.73px;
+  border-radius: 5px;
+}
+.gallery__foto_big {
+  width: 317.31px;
+  height: 421.88px;
 }
