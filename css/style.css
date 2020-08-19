@@ -7,13 +7,13 @@ body {
   padding-left: 199.59px;
   padding-top: 88.59px;
   background-size: cover;
+  background-repeat: no-repeat;
   padding-bottom: 248.91px;
 }
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 1606.6px;
   margin-bottom: 129.38px;
   padding-right: 113.81px;
 }
@@ -23,7 +23,6 @@ body {
 }
 .menu {
   display: flex;
-  margin-left: 955.82px;
 }
 .menu :last-child {
   margin-right: 0;
@@ -99,7 +98,7 @@ body {
   height: 61.88px;
   font-size: 22px;
   cursor: pointer;
-  transition: background 0 linear
+  transition: background linear;
 }
 .information__button:hover {
   background: lime;
@@ -107,8 +106,6 @@ body {
 .gallery {
   display: flex;
   align-items: center;
-  margin-left: 293.76px;
-
 }
 .gallery :last-child {
   margin-right: 0;
@@ -131,7 +128,6 @@ body {
     padding-bottom: 177px;
   }
   .header {
-    width: 1143.03px;
     margin-bottom: 92px;
     padding-right: 80.97px
   }
@@ -139,48 +135,42 @@ body {
     width: 104px;
     height: 39px;
   }
-  .menu {
-    margin-left: 680.03px;
+  .menu__link {
+    margin-right: 24px;
+    font-size: 16px;
+    line-height: 19px;
   }
-   .menu__link {
-     margin-right: 24px;
-     font-size: 16px;
-     line-height: 19px;
+  .information__title {
+    font-size: 200px;
   }
-   .information__title {
-     font-size: 200px;
+  .information__subtitle {
+    margin-top: -100px;
+    margin-bottom: 8px;
+    font-size: 70px;
+    padding-left: 59px;
   }
-   .information__subtitle {
-     margin-top: -100px;
-     margin-bottom: 8px;
-     font-size: 70px;
-     padding-left: 59px;
-  }
-   .information__text {
+  .information__text {
      width: 399px;
      margin-bottom: 24px;
      font-size: 16px;
      line-height: 19px;
   }
-   .information__button {
-     width: 209px;
-     height: 44px;
-     font-size: 16px;
+  .information__button {
+    width: 209px;
+    height: 44px;
+    font-size: 16px;
   }
-   .gallery {
-     margin-left: 209px;
+  .gallery :last-child {
+    width: 110px;
   }
-   .gallery :last-child {
-     width: 110px;
+  .gallery__foto {
+    width: 202.27px;
+    height: 270px;
+    margin-right: 24px;
   }
-   .gallery__foto {
-     width: 202.27px;
-     height: 270px;
-     margin-right: 24px;
-  }
-   .gallery__foto_big {
-     width: 255.75px;
-     height: 300px;
+  .gallery__foto_big {
+    width: 202.27px;
+    height: 300px;
   }
 }
 @media (max-width: 1024px) {
@@ -190,7 +180,6 @@ body {
     padding-bottom: 174.52px;
   }
   .header {
-    width: 946px;
     margin-bottom: 94.48px;
     padding-right: 37px
   }
@@ -198,48 +187,42 @@ body {
     width: 104px;
     height: 39px;
   }
-  .menu {
-    margin-left: 483px;
+  .menu__link {
+    margin-right: 24px;
+    font-size: 16px;
+    line-height: 19px;
   }
-   .menu__link {
-     margin-right: 24px;
-     font-size: 16px;
-     line-height: 19px;
+  .information__title {
+    font-size: 200px;
   }
-   .information__title {
-     font-size: 200px;
+  .information__subtitle {
+    margin-top: -100px;
+    margin-bottom: 8px;
+    font-size: 70px;
+    padding-left: 59px;
   }
-   .information__subtitle {
-     margin-top: -100px;
-     margin-bottom: 8px;
-     font-size: 70px;
-     padding-left: 59px;
+  .information__text {
+    width: 399px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 19px;
   }
-   .information__text {
-     width: 399px;
-     margin-bottom: 24px;
-     font-size: 16px;
-     line-height: 19px;
+  .information__button {
+    width: 209px;
+    height: 44px;
+    font-size: 16px;
   }
-   .information__button {
-     width: 209px;
-     height: 44px;
-     font-size: 16px;
+  .gallery :last-child {
+    width: 50px;
   }
-   .gallery {
-     margin-left: 79px;
+  .gallery__foto {
+    width: 202.27px;
+    height: 270px;
+    margin-right: 24px;
   }
-   .gallery :last-child {
-     width: 50px;
-  }
-   .gallery__foto {
-     width: 202.27px;
-     height: 270px;
-     margin-right: 24px;
-  }
-   .gallery__foto_big {
-     width: 255.75px;
-     height: 300px;
+  .gallery__foto_big {
+    width: 202.27px;
+    height: 300px;
   }
 }
 @media (max-width: 375px) {
@@ -249,16 +232,12 @@ body {
     padding-bottom: 97.32px;
   }
   .header {
-    width: 300.85px;
     margin-bottom: 54.88px;
     padding-right: 33px
   }
   .header__logo {
     width: 104px;
     height: 39px;
-  }
-  .menu {
-    margin-left: 171.85px;
   }
   .information__title {
      font-size: 170px;
