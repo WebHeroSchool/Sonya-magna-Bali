@@ -4,7 +4,7 @@ body {
   background: url("../images/iswanto-arif-448003-unsplash.jpg");
   margin: 0;
   box-sizing: border-box;
-  padding-left: 199.59px;
+  padding-left: 150px;
   padding-top: 88.59px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -48,15 +48,6 @@ body {
   margin-top: 4px;
   background: white;
 }
-@media (max-width:768px) {
-  .header__burger {
-    display: block;
-    cursor: pointer;
-  }
-  .menu {
-    display: none;
-  }
- }
 .content {
   display: flex;
   justify-content: space-between;
@@ -123,65 +114,13 @@ body {
 }
 @media (max-width: 1366px) {
   body {
-    padding-left: 142px;
+    padding-left: 100px;
     padding-top: 63px;
     padding-bottom: 177px;
   }
   .header {
     margin-bottom: 92px;
     padding-right: 80.97px
-  }
-  .header__logo {
-    width: 104px;
-    height: 39px;
-  }
-  .menu__link {
-    margin-right: 24px;
-    font-size: 16px;
-    line-height: 19px;
-  }
-  .information__title {
-    font-size: 200px;
-  }
-  .information__subtitle {
-    margin-top: -100px;
-    margin-bottom: 8px;
-    font-size: 70px;
-    padding-left: 59px;
-  }
-  .information__text {
-     width: 399px;
-     margin-bottom: 24px;
-     font-size: 16px;
-     line-height: 19px;
-  }
-  .information__button {
-    width: 209px;
-    height: 44px;
-    font-size: 16px;
-  }
-  .gallery :last-child {
-    width: 110px;
-  }
-  .gallery__foto {
-    width: 202.27px;
-    height: 270px;
-    margin-right: 24px;
-  }
-  .gallery__foto_big {
-    width: 202.27px;
-    height: 300px;
-  }
-}
-@media (max-width: 1024px) {
-  body {
-    padding-left: 41px;
-    padding-top: 63px;
-    padding-bottom: 174.52px;
-  }
-  .header {
-    margin-bottom: 94.48px;
-    padding-right: 37px
   }
   .header__logo {
     width: 104px;
@@ -213,7 +152,7 @@ body {
     font-size: 16px;
   }
   .gallery :last-child {
-    width: 50px;
+    width: 110px;
   }
   .gallery__foto {
     width: 202.27px;
@@ -225,41 +164,126 @@ body {
     height: 300px;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 1024px) {
+  body {
+    padding-left: 41px;
+    padding-top: 63px;
+    padding-bottom: 174.52px;
+  }
+  .header {
+    margin-bottom: 94.48px;
+    padding-right: 37px;
+  }
+  .header__logo {
+    width: 104px;
+    height: 39px;
+  }
+  .menu__link {
+    margin-right: 24px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .information__title {
+    font-size: 200px;
+  }
+  .information__subtitle {
+    margin-top: -100px;
+    margin-bottom: 8px;
+    font-size: 70px;
+    padding-left: 59px;
+  }
+  .information__text {
+    width: 399px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .information__button {
+    width: 209px;
+    height: 44px;
+    font-size: 16px;
+  }
+  .gallery :last-child {
+    display: none;
+  }
+  .gallery__foto {
+    width: 202.27px;
+    height: 270px;
+    margin-right: 24px;
+  }
+  .gallery__foto_big {
+    width: 202.27px;
+    height: 300px;
+  }
+}
+@media (max-width: 872px) {
+  .gallery__foto {
+    display: none;
+  }
+  .gallery__foto_big {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
   body {
     padding-left: 16px;
+    padding-right: 16px;
     padding-top: 42px;
     padding-bottom: 97.32px;
+    margin: 8px;
   }
   .header {
     margin-bottom: 54.88px;
-    padding-right: 33px
+    padding-left: 37px;
   }
   .header__logo {
     width: 104px;
     height: 39px;
   }
   .information__title {
-     font-size: 170px;
+    font-size: 170px;
   }
   .information__subtitle {
-     margin-top: -75px;
-     margin-bottom: 5px;
-     font-size: 60px;
-     padding-left: 59px;
+    margin-top: -90px;
+    margin-bottom: 5px;
+    font-size: 60px;
+    padding-left: 50px;
   }
   .information__text {
-     width: 292.84px;
-     margin-bottom: 35.9px;
-     font-size: 18px;
-     line-height: 22px;
+    width: 292.84px;
+    margin-bottom: 35.9px;
+    font-size: 18px;
+    line-height: 22px;
   }
   .information__button {
-     width: 209px;
-     height: 44px;
-     font-size: 16px;
+    width: 209px;
+    height: 44px;
+    font-size: 16px;
   }
   .gallery {
-     display: none;
+    display: none;
+  }
+  .header__burger {
+    display: block;
+    cursor: pointer;
+  }
+  .menu {
+    display: none;
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+@media (max-width: 375px) {
+  .information__title {
+    font-size: 140px;
+  }
+  .information__subtitle {
+    margin-top: -75px;
+    margin-bottom: 5px;
+    font-size: 40px;
+    padding-left: 50px;
   }
 }
