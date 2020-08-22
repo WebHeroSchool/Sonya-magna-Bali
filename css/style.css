@@ -263,7 +263,6 @@ body {
     height: 32px;
     right: 30px;
     top: 22px;
-    margin-left: 280px;
   }
   .menu-mobile__close:before {
     position: absolute;
@@ -274,6 +273,11 @@ body {
     transform: rotate(45deg);
   }
   .menu-mobile__close:after {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 33px;
+    background-color: black;
     transform: rotate(-45deg);
   }
   .menu-mobile__link {
