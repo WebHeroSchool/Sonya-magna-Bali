@@ -24,6 +24,9 @@ body {
 .menu {
   display: flex;
 }
+.close {
+  display: none;
+}
 .menu :last-child {
   margin-right: 0;
 }
@@ -270,6 +273,47 @@ body {
   }
   .menu {
     display: none;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    padding: 50px;
+  }
+  .close {
+    display: block;
+    cursor: pointer;
+    float: right;
+  }
+  .close:before {
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 2px;
+    background: #555;
+    transform: rotate(45deg);
+  }
+  .close:after {
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 2px;
+    background: #555;
+    transform: rotate(-45deg);
+  }
+  .menu__link {
+    margin-right: 0;
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    padding-top: 24px;
+  }
+  .menu :last-child {
+    padding-bottom: 24px;
+  }
+  .menu :first-child {
+    padding-top: 24px;
   }
   .content {
     display: flex;
