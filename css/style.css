@@ -1,3 +1,350 @@
 body {
   font-family: "MuseoSansCyrl500";
+  width: 100%;
+  background: url("../images/iswanto-arif-448003-unsplash.jpg");
+  margin: 0;
+  box-sizing: border-box;
+  padding-left: 150px;
+  padding-top: 88.59px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 248.91px;
+}
+.menu-mobile {
+  display: none;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 129.38px;
+  padding-right: 113.81px;
+}
+.header__logo {
+  width: 146.18px;
+  height: 54.84px;
+}
+.header__burger {
+  display: none;
+}
+.menu {
+  display: flex;
+}
+.menu__link {
+  margin-right: 33.73px;
+  color: white;
+  font-size: 22px;
+  line-height: 26px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 1s linear;
+}
+.menu__link :hover {
+  color: fuchsia;
+}
+.menu :last-child {
+  margin-right: 0;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.information__title {
+  color: white;
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: bold;
+  margin-bottom:0;
+  margin-top:0;
+  font-size: 280px;
+  opacity: 0.4;
+}
+.information__subtitle {
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: bold;
+  margin-top: -145px;
+  margin-bottom: 8.44px;
+  font-size: 98px;
+  color: white;
+  padding-left: 82.93px;
+}
+.information__text {
+  width: 550.75px;
+  margin-bottom: 60.47px;
+  font-size: 22px;
+  line-height: 26px;
+  color: white;
+}
+.gallery {
+  display: flex;
+  align-items: center;
+}
+.gallery__foto {
+  width: 284.31px;
+  height: 379.69px;
+  margin-right: 33.73px;
+  border-radius: 5px;
+}
+.gallery__foto_big {
+  width: 317.31px;
+  height: 421.88px;
+}
+.gallery :last-child {
+  margin-right: 0;
+  width: 190px;
+}
+.information__button {
+  background: #D4BEA3;
+  border: 0;
+  border-radius: 48px;
+  color: white;
+  width: 293.76px;
+  height: 61.88px;
+  font-size: 22px;
+  cursor: pointer;
+  transition: background linear;
+}
+.information__button:hover {
+  background: lime;
+}
+@media (max-width: 1650px) {
+  body {
+    padding-left: 100px;
+  }
+  .gallery :last-child {
+    display: none;
+  }
+}
+@media (max-width: 1366px) {
+  body {
+    padding-left: 80px;
+    padding-top: 63px;
+    padding-bottom: 177px;
+  }
+  .header {
+    margin-bottom: 92px;
+    padding-right: 80.97px
+  }
+  .header__logo {
+    width: 104px;
+    height: 39px;
+  }
+  .menu__link {
+    margin-right: 24px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .information__title {
+    font-size: 200px;
+  }
+  .information__subtitle {
+    margin-top: -100px;
+    margin-bottom: 8px;
+    font-size: 70px;
+    padding-left: 59px;
+  }
+  .information__text {
+    width: 399px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .gallery__foto {
+    width: 202.27px;
+    height: 270px;
+    margin-right: 24px;
+  }
+  .gallery__foto_big {
+    width: 202.27px;
+    height: 300px;
+  }
+  .gallery :last-child {
+    display: block;
+    margin-right: 0;
+    width: 190px;
+  }
+  .information__button {
+    width: 209px;
+    height: 44px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 1166px) {
+  body {
+    padding-left: 50px;
+    padding-top: 63px;
+    padding-bottom: 174.52px;
+  }
+  .header {
+    margin-bottom: 94.48px;
+    padding-right: 37px;
+  }
+  .header__logo {
+    width: 104px;
+    height: 39px;
+  }
+  .menu__link {
+    margin-right: 24px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .information__title {
+    font-size: 200px;
+  }
+  .information__subtitle {
+    margin-top: -100px;
+    margin-bottom: 8px;
+    font-size: 70px;
+    padding-left: 59px;
+  }
+  .information__text {
+    width: 399px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .information__button {
+    width: 209px;
+    height: 44px;
+    font-size: 16px;
+  }
+  .gallery__foto {
+    width: 202.27px;
+    height: 270px;
+    margin-right: 24px;
+  }
+  .gallery__foto_big {
+    width: 202.27px;
+    height: 300px;
+  }
+  .gallery :last-child {
+    display: none;
+  }
+}
+@media (max-width: 930px) {
+  body {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 42px;
+    padding-bottom: 97.32px;
+    margin: 8px;
+  }
+  .menu {
+    display: none;
+  }
+  .menu-mobile {
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+  }
+  .menu-mobile__container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding-top: 100px;
+  }
+  .menu-mobile__container :last-child {
+    margin-bottom: 30px;
+  }
+  .menu-mobile__close {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    right: 30px;
+    top: 22px;
+  }
+  .menu-mobile__close:before {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 33px;
+    background-color: black;
+    transform: rotate(45deg);
+  }
+  .menu-mobile__close:after {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 33px;
+    background-color: black;
+    transform: rotate(-45deg);
+  }
+  .menu-mobile__link {
+    color: black;
+    font-size: 30px;
+    margin-bottom: 24px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 1s linear;
+  }
+  .menu-mobile__link:hover {
+    color: fuchsia;
+  }
+  .header {
+    margin-bottom: 54.88px;
+    padding-left: 37px;
+  }
+  .header__logo {
+    width: 104px;
+    height: 39px;
+  }
+  .header__burger {
+    display: block;
+    cursor: pointer;
+  }
+  .burger__item {
+    height: 3px;
+    width: 25px;
+    margin-top: 4px;
+    background: white;
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .information__title {
+    font-size: 170px;
+  }
+  .information__subtitle {
+    margin-top: -90px;
+    margin-bottom: 5px;
+    font-size: 60px;
+    padding-left: 50px;
+  }
+  .information__text {
+    width: 292.84px;
+    margin-bottom: 35.9px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .information__button {
+    width: 209px;
+    height: 44px;
+    font-size: 16px;
+  }
+  .gallery {
+    display: none;
+  }
+@media (max-width: 375px) {
+  .information__title {
+    font-size: 140px;
+  }
+  .information__subtitle {
+    margin-top: -75px;
+    margin-bottom: 5px;
+    font-size: 40px;
+    padding-left: 50px;
+  }
 }
